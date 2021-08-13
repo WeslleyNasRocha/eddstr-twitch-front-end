@@ -8,6 +8,10 @@ const config = {
 	preprocess: preprocess(),
 
 	kit: {
+		paths: {
+			base: '/eddstr-twitch-front-end',
+			assets: '/eddstr-twitch-front-end'
+		},
 		// hydrate the <div id="svelte"> element in src/app.html
 		target: '#svelte',
 		adapter: staticAdapter({
